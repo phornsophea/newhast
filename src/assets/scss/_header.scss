@@ -1,0 +1,294 @@
+@media (max-width:767px) {
+  .each_title{
+      width: 80% !important;
+  }
+  header .social p{
+      font-size: 1rem !important;
+      padding:4px 70px !important;
+  }
+  header ul.menu {
+      padding: 10px 0 0 0 !important;
+  }
+  header ul.menu li .jp{
+      font-size: 7px !important;
+  }
+  .nav-link{
+      padding: 0.5rem 0.6rem !important;
+  }
+}
+@media  only screen and (min-width:768px) {
+  .each_title{
+      width: 40% !important;
+  }
+  header .social p{
+      font-size: 1rem !important;
+      margin-bottom: 0px !important;
+  }
+  header ul.menu li .jp{
+      font-size: 10px !important;
+  }
+  header ul.menu {
+      padding: 10px 0 0 15px !important;
+  }
+  header ul.menu li p {
+      font-size: 1.2rem !important;
+  }
+  .nav-link{
+      padding: 0.3rem 0.1rem 0.8rem !important;
+  }
+  header .social .network svg {
+      margin-right: -12px;
+  }
+  header .social .network svg:first-child {
+      margin-right: 14px !important;
+  }
+}
+@media (min-width:1025px) {
+  .each_title{
+      width: 25% !important;
+  }
+  header .social p{
+      font-size: 1.1rem !important;
+  }
+  header ul.menu li .jp{
+      font-size: 10px !important;
+  }
+  header ul.menu {
+      padding: 10px 0 0 60px !important;
+  }
+  header ul.menu li p {
+      font-size: 1.2rem !important;
+  }
+  .nav-link{
+      padding: 0.3rem 0.1rem 0.8rem !important;
+  }
+  header .social .network svg {
+      margin-right: -7px;
+  }
+  header .social .network svg:first-child {
+      margin-right: 19px !important;
+  }
+}
+.social-homes {
+  display: flex;
+  margin-top: -125px;
+  margin-left: -25px;
+  justify-content: center;
+  p {
+      color: #3d3c3c;
+      border: 1px solid #707070;
+      margin-bottom: 0;
+      padding: 0px 45px 4px;
+      z-index: 999;
+      a {
+          font-size: 16px;
+      }
+
+  }
+  @media (min-width:1400px) {
+    p{
+      margin-top: -20px;
+    }
+  }
+}
+@media (max-width:414px) {
+  .social-homes {
+      margin-top: -90px !important;
+      margin-left: -3px !important;
+      p{
+          a{
+              font-size: 14px !important;
+          }
+      }
+  }
+  img.img-stdio-karuna{
+    height: 410px !important;
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width:767px) and (min-width:415px) {
+  .social-homes {
+      margin-top: -110px !important;
+      margin-left: -5px !important;
+  }
+}
+@media screen and (max-width:1023px) and (min-width:768px) {
+  .social-homes {
+      margin-top: -80px !important;
+      margin-left: -30px !important;
+  }
+}
+@media screen and (max-width:1200px) and (min-width:1024px) {
+  .social-homes {
+      margin-top: -102px !important;
+      margin-left: -2rem !important;
+  }
+}
+
+  //menu mobile size
+  .menus {
+    p{
+      color:#212529;
+      line-height:0.8;
+      font-size: 22px !important;
+      small{
+        font-size: 12px !important;
+      }
+
+    }
+    p.eng::before {
+      border-top: 1px solid #9ca3a0;
+      content: "";
+      margin: 0 auto;
+      position: absolute;
+      top: 30%;
+      left: -264px;
+      right: 0;
+      bottom: 0;
+      width: 16%;
+    }
+    p.engs{
+      border-bottom: 1px solid #9ca3a0;
+      line-height: 1.4;
+    }
+    .nav-item, ul li{
+      padding: 15px 0;
+      // line-height: 18px;
+      font-weight: 400;
+      position: relative;
+      // border-top: 1px solid #e8e8e8;
+      padding: 3px 0;
+      margin-bottom: -15px;
+
+    }
+    .nav-item a{
+      padding-left: 15px !important;
+    }
+  }
+
+  header .social-mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    float: right;
+ }
+  .social-mobile {
+    margin-top:-55px;
+    .network {
+      margin-right: 5px;
+      svg {
+        font-size: 35px;
+      }
+    }
+  }
+  .b-sidebar > .b-sidebar-header{
+    display: none !important;
+  }
+  .b-sidebar.b-sidebar-right > .b-sidebar-header .close {
+    margin-left: 258px;
+    border: none;
+    background-color: rgba(207, 224, 217, 0) !important;
+    margin-bottom: -35px;
+    z-index: 999;
+    display: none;
+
+  }
+   .btn-secondary:focus {
+      color: #fff;
+      background-color: #5c636a;
+      border-color: none !important;
+      -webkit-box-shadow: none !important;
+      box-shadow: none !important;
+  }
+  .btn .b-icon.bi{
+    font-size:40px !important;
+  }
+  .b-sidebar.b-sidebar-right {
+    left: auto;
+    right: 0;
+    top: 73px;
+    background-color: #cfe0d9ed !important;
+    margin-right: 25px;
+    height: 532px;
+}
+
+  @media only screen and (max-width: 1024px){
+    header .d-sm-block {
+      width: 412px !important;
+      margin-left: 544px !important;
+      margin-top: -90px !important;
+    }
+  }
+  @media screen and (max-width: 1020px) and (min-width: 768px){
+    header .d-sm-block {
+        width: 415px  !important;
+        margin-left: 300px  !important;
+        margin-top: -100px  !important;
+    }
+  }
+
+  @media screen and (max-width: 1199px) and (min-width: 1021px){
+    header .d-sm-block {
+      width: 475px ;
+      margin-left: 531px ;
+      margin-top: -90px !important;
+    }
+  }
+
+  @media screen and (min-width: 1399px){
+    header .d-sm-block {
+      width: 475px !important;
+      margin-left: 70px;
+    }
+  }
+  @media only screen and (max-width: 767px){
+    header .d-sm-block {
+        width: 386px  !important;
+        margin-left: 180px  !important;
+        margin-top: -90px  !important;
+    }
+  }
+// ============================ social mobile all page =================//
+// #wrap-header{
+//   padding: 15px 0 1px;
+// }
+//   #wrap-header .social-all-menu  {
+//     display: flex;
+//     float: right;
+//     margin-right: -12px;
+//       margin-top: -6px;
+//   }
+//   #wrap-header .social-all-menu  .network {
+//     text-align: center;
+//     color: #3d3c3c;
+//     margin-right: 6px;
+// }
+// @media (max-width: 767px){
+//     #wrap-header .social-all-menu p {
+//         font-size: 1rem !important;
+//         padding: 3px 35px !important;
+//     }
+// }
+// #wrap-header .social-all-menu  p {
+//     color: #3d3c3c;
+//     border: 1px solid #707070;
+//     margin-bottom: 0;
+//     /* margin-left: 46px; */
+//     height: 36px;
+//     margin-top: 1px;
+// }
+// #wrap-header .social-all-menu .network svg {
+//     font-size: 38px;
+//     margin-left: 4px;
+// }
+// ============================ End social mobile all page =================//
+@media(min-width:1400px){
+  header .social p {
+      padding: 7px 195px !important;
+  }
+}
+@media screen and (min-width:1200px) and (max-width:1399px) {
+  header .social p {
+      padding: 7px 150px !important;
+  }
+}
